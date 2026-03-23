@@ -218,10 +218,8 @@ if __name__ == "__main__":
     PALLET_CONFIG = (48, 40, 60)
     # Define list of items to pack with their dimensions and quantities
     orders = [
-        {"w": 24, "d": 20, "h": 20, "name": "Engine", "qty": 4},
-        {"w": 12, "d": 12, "h": 12, "name": "Kit", "qty": 12},
-        {"w": 30, "d": 10, "h": 40, "name": "Panel", "qty": 2},
-        {"w": 15, "d": 15, "h": 15, "name": "Pump", "qty": 6}
+        {"w": 20, "d": 15, "h": 4, "name": "Auto9", "qty": 200},
+        {"w": 20, "d": 18, "h": 15, "name": "Helmet", "qty": 70}
     ]
 
     # Create empty list to hold all individual box instances
